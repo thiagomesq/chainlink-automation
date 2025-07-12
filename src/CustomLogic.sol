@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
-import {AutomationCompatibleInterface} from
-    "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol";
+import {AutomationCompatibleInterface} from "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol";
 
 contract CustomLogic is AutomationCompatibleInterface {
     uint256 public counter;
